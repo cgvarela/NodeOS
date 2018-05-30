@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 # NodeOS
 #
 # Copyright (c) 2013-2017 Jacob Groundwater, Jesús Leganés-Combarro 'piranna'
@@ -5,11 +7,4 @@
 #
 # MIT License
 
-node_modules/
-npm-debug.log
-.vagga/
-.vagrant/
-build/
-deps/
-out/
-prebuilds/
+QEMU=qemu-system-$CPU_FAMILY
